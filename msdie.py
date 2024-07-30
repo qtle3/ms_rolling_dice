@@ -31,7 +31,16 @@ def main():
     die1.setValue(1)
     die1.roll()
     die1.getValue()
-    print(die1.getValue())
+    print("The roll of dice #1 is ", die1.getValue())
+
+
+def die2():
+    die2 = MSDie(8)
+    die2.setValue(3)
+    die2.roll()
+    die2.getValue()
+    print("The roll of dice #2 is", die2.getValue())
 
 
 main()
+die2()
